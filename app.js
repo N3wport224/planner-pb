@@ -428,8 +428,8 @@
         <button class="btn small ghost" data-act="disconnect">Disconnect this device</button>` : ''}</section>
       <section class="card"><div class="card-h"><h2>One-time setup</h2></div><ol class="steps small">
         <li>Open your HABIT GAME Google Sheet → <b>Extensions → Apps Script</b>.</li>
-        <li>Add the files <code>HabitGame.gs</code>, <code>WebApi.gs</code> and <code>WebLayout.gs</code>
-          (plus <code>OuraSync.gs</code> for Oura). Save and reload the sheet.</li>
+        <li>Delete everything in <code>Code.gs</code>, paste the whole <code>HabitGame_AllInOne.gs</code> script, save, then reload the sheet.</li>
+        <li>Menu <b>Habit Game → Set up checkboxes</b> and allow the permissions (Advanced → Go to … → Allow).</li>
         <li>Menu <b>🌐 Website → Create website key</b>.</li>
         <li>In Apps Script: <b>Deploy → New deployment → Web app</b>, Execute as <b>Me</b>, Who has access <b>Anyone</b> → Deploy. Copy the URL.</li>
         <li>Paste the URL and key above on each device. Tip: <b>Share → Add to Home Screen</b> makes it feel like an app.</li></ol>

@@ -8,8 +8,9 @@ Sheet; this site only talks to it through a private Apps Script link.
 
 ## Connect your sheet (one time)
 
-1. In your HABIT GAME Google Sheet: **Extensions → Apps Script**. Add `HabitGame.gs`,
-   `WebApi.gs` and `WebLayout.gs` (and `OuraSync.gs` for Oura Ring). Save, reload the sheet.
+1. In your HABIT GAME Google Sheet: **Extensions → Apps Script**. Replace `Code.gs` with the
+   whole `HabitGame_AllInOne.gs` script, save, reload the sheet, then run
+   **Habit Game → Set up checkboxes** and allow the permissions.
 2. Menu **🌐 Website → Create website key**.
 3. In Apps Script: **Deploy → New deployment → Web app** · Execute as **Me** ·
    Who has access **Anyone** → Deploy. Copy the web app URL (ends in `/exec`).
